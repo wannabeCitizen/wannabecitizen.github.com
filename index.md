@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Front Page
-tagline: Home to my writing and code
+title: About Me
+description: Home to Mike Skirpan's writing and code
 ---
-{% include JB/setup %}
+#What is this?
 In due time, this page will host all of my writing (fiction, non-fiction, and academic) as well as my code.
 
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+But for now, it's a work in progress...
 
 ## Who Am I? 
 

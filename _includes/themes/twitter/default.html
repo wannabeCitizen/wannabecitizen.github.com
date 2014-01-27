@@ -16,8 +16,9 @@
 
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-    <link href="css/mystyle.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="css/mystyle.css" rel="stylesheet">
+ 
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -36,15 +37,25 @@
   <body>
     <div class="navbar">
       <div class="navbar-inner">
-        <img src="images/dancin.jpg" class="mainimg"/>
-        <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
+        <div class="left-nav">
+          <img src="images/dancin.jpg" class="mainimg"/>
         </div>
+        <div class="navhead">
+          <a class="heading" href="{{ HOME_PATH }}">Michael Skirpan</a>
+          <p class="myDes">Writer. Coder. Citizen. Human.</p> 
+        </div>
+        <div class="nav">  
+         <ul>
+            <li><a href="{{ HOME_PATH }}/writing.html">Writing</a></li>
+            <li><a href="{{ HOME_PATH }}/coding.html">Coding</a></li>
+            <li><a href="{{ HOME_PATH }}/research.html">Research</a></li>
+            <li><a href="{{ HOME_PATH }}/contact.html">Contact</a></li>
+              <!-- {% assign pages_list = site.pages %}
+              {% assign group = 'navigation' %}
+              {% include JB/pages_list %}
+            -->
+          </ul>
+        </div>            
       </div>
     </div>
 

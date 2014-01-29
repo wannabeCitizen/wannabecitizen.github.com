@@ -15,7 +15,9 @@
     <![endif]-->
 
     <!-- Le styles -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="css/mystyle.css" rel="stylesheet">
  
@@ -31,47 +33,49 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
+  
   </head>
 
   <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="left-nav">
-          <img src="images/dancin.jpg" class="mainimg"/>
+
+    <div class="heading">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+            <img src="images/dancin.jpg" class="mainimg"/>
         </div>
-        <div class="navhead">
-          <a class="heading" href="{{ HOME_PATH }}">Michael Skirpan</a>
-          <p class="myDes">Writer. Coder. Citizen. Human.</p> 
+        <div class="col-md-6">
+            <div class="me">
+              <a href="{{ HOME_PATH }}">Michael Skirpan</a>
+              <p >Writer. Coder. Citizen.</p> 
+            </div>
+          <div class="row">  
+           <ul class="nav nav-pills nav-justified">
+              <li><a href="{{ HOME_PATH }}writing.html">Writing</a></li>
+              <li><a href="{{ HOME_PATH }}coding.html">Coding</a></li>
+              <li><a href="{{ HOME_PATH }}research.html">Research</a></li>
+              <li><a href="{{ HOME_PATH }}contact.html">Contact</a></li>
+                <!-- {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
+                {% include JB/pages_list %}
+              -->
+            </ul>
+          </div>            
         </div>
-        <div class="nav">  
-         <ul>
-            <li><a href="{{ HOME_PATH }}/writing.html">Writing</a></li>
-            <li><a href="{{ HOME_PATH }}/coding.html">Coding</a></li>
-            <li><a href="{{ HOME_PATH }}/research.html">Research</a></li>
-            <li><a href="{{ HOME_PATH }}/contact.html">Contact</a></li>
-              <!-- {% assign pages_list = site.pages %}
-              {% assign group = 'navigation' %}
-              {% include JB/pages_list %}
-            -->
-          </ul>
-        </div>            
       </div>
     </div>
 
-    <div class="container-narrow">
-
-      <div class="content">
-        {{ content }}
-      </div>
-      <hr>
-      <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
+    <div class="row written">
+      {{ content }}
+    </div>
+    
+    <hr>
+    <div class="row footer">
+        <div class="col-md-6 col-md-offset-2">
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+            with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          </p>
+        </div>
     </div>
 
     {% include JB/analytics %}

@@ -1,60 +1,61 @@
-body{
-  background-color: #E5E0DE;
+@font-face{
+  font-family: voltaire;
+  src: url(fonts/Voltaire-Regular.otf);
+}
+
+@font-face{
+  font-family: fengardon;
+  src: url(fonts/FengardoNeue_Regular.otf);
+}
+
+.heading{
+   /* background-color: #0F0E0F; */
+  background-image: linear-gradient(to bottom, #0f0e0f , #FFFFFF);
+
 }
 
 .mainimg {
   max-width:100%;
   height: 150px;
-  margin-left: 50px;
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   vertical-align:middle;
-  border:0;
-  border-radius: 30px;
-  -ms-interpolation-mode:bicubic;}
-
-.navbar{
-
+  border-radius: 25px;
+  -ms-interpolation-mode:bicubic;
 }
 
-.navbar .nav{
-  float: center;
-  margin-top: 30px;
+.me {
+  font-family: voltaire, Helvetica Neue, sans serif;
+  margin-top: 35px;
 }
 
-.navbar .nav ul{
-  list-style-type: none;
-}
-
-.navbar .nav li{
-  display: inline; 
-  padding-right: 10px;
-}
-
-.navbar-inner{
-  background-image: linear-gradient(to bottom, #1f4B84, #f2f2f2)
-}
-
-.left-nav{
-  width: 200px;
-  padding: 20px 10px 20px 10px;
-  float: left;
-
-}
-
-.navhead{
-  margin-top: 70px;
-
-}
-
-.navhead .heading{
-  font-size: xx-large;
-  color: black;
-  padding-bottom: 10px;
-
-}
-.navhead .heading:hover{
+.me a{
+  font-size: 35px;
   text-decoration: none;
+  color: #F0FFFF;
 }
 
-.myDes{
+.me p{
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.nav.nav-tabs.nav-justified{
+  margin-top: 5px;
+}
+
+.written{
+  font-family: fengardon;
+  background-color: #ffffff;
+}
+
+
+.footer{
+  background-color: #ffffff;
+
+  font-family: Helvetica;
+  font-size: 15px;
 
 }
+

@@ -15,6 +15,7 @@
     <![endif]-->
 
     <!-- Le styles -->
+    <script src="{{ASSET_PATH}}/bootstrap/js/bootstrap.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,6 +34,23 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <script>
+      $("body").keypress(function(event){
+          $('.nav.nav-pills.nav-justified ul a#current').mouseover();
+          var direction = null;
+          if(event.keyCode == 37){
+            direction = 'prev';
+          } else if (event.keyCode == 39){
+            direction = 'next';
+          }
+          if(direction != null){
+            $('#current').parent()[direction]().mouseover();
+          }
+      });
+
+
+    </script>
   
   </head>
 
@@ -50,7 +68,7 @@
             </div>
           <div class="row">  
            <ul class="nav nav-pills nav-justified">
-              <li><a href="{{ HOME_PATH }}writing.html">Writing</a></li>
+              <li><a href="{{ HOME_PATH }}writing.html" id="current">Writing</a></li>
               <li><a href="{{ HOME_PATH }}coding.html">Coding</a></li>
               <li><a href="{{ HOME_PATH }}research.html">Research</a></li>
               <li><a href="{{ HOME_PATH }}contact.html">Contact</a></li>

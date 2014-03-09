@@ -35,23 +35,7 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
-    <script>
-      $("body").keypress(function(event){
-          $('.nav.nav-pills.nav-justified ul a#current').mouseover();
-          var direction = null;
-          if(event.keyCode == 37){
-            direction = 'prev';
-          } else if (event.keyCode == 39){
-            direction = 'next';
-          }
-          if(direction != null){
-            $('#current').parent()[direction]().mouseover();
-          }
-      });
-
-
-    </script>
-  
+      
   </head>
 
   <body>
@@ -95,7 +79,27 @@
           </p>
         </div>
     </div>
+  </body>
 
     {% include JB/analytics %}
-  </body>
+    <script>
+      $(document).keydown(function(event){
+          console.log("Keypress");
+          $('.nav.nav-pills.nav-justified ul a#current').mouseover(function(){
+            $("#current").toggleClass("hover");
+          });
+          var direction = null;
+          var code = event.keyCode || event.which;
+          if(code == 37){
+            direction = 'prev';
+          } else if (code == 39){
+            direction = 'next';
+          }
+          if(direction != null){
+            console.log("did thing to:");
+            console.log($('#current').parent()[direction]());
+            $('#current').parent()[direction]().mouseover();
+          }
+      });
+    </script>
 </html>

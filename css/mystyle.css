@@ -1,61 +1,116 @@
-@font-face{
-  font-family: voltaire;
-  src: url(fonts/Voltaire-Regular.otf);
+@font-face {
+  font-family: ghandi;
+  src: url(/fonts/gandhi-sans/GandhiSans-Regular.otf);
 }
 
-@font-face{
-  font-family: fengardon;
-  src: url(fonts/FengardoNeue_Regular.otf);
+@font-face {
+  font-family: neris;
+  src: url(/fonts/neris/Neris-SemiBold.otf);
 }
 
-.heading{
-   /* background-color: #0F0E0F; */
-  background-image: linear-gradient(to bottom, #0f0e0f , #FFFFFF);
+@font-face {
+  font-family: ghandi;
+  src: url(/static/fonts/gandhi-sans/GandhiSans-Bold.otf);
+  font-weight: bold;
+}
 
+@font-face {
+  font-family: ghandi;
+  src: url(/fonts/gandhi-sans/GandhiSans-Italic.otf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: ghandi;
+  src: url(/fonts/gandhi-sans/GandhiSans-BoldItalic.otf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+html, body {
+  height:100%;
 }
 
 .mainimg {
   max-width:100%;
   height: 150px;
-  margin-left: 100px;
   margin-top: 15px;
+  margin-right: 15px;
   margin-bottom: 10px;
-  vertical-align:middle;
+  float: left;
   border-radius: 25px;
   -ms-interpolation-mode:bicubic;
 }
 
-.me {
-  font-family: voltaire, Helvetica Neue, sans serif;
-  margin-top: 35px;
+.nav-head {
+  background-color: #242329;
+  font-family: Helvetica Neue, sans serif;
+  width : 100%;
+  height : auto;
+  position: relative;
+  vertical-align: bottom;
+
 }
 
-.me a{
+.namehead {
+  font-family : neris;
   font-size: 35px;
+  color: #EEF0FA;
+  float:left;
+}
+
+.nav-head a {
   text-decoration: none;
-  color: #F0FFFF;
 }
 
-.me p{
-  font-size: 25px;
-  padding-left: 20px;
+.nav-links {
+  height: inherit;
+  display: block;
+  margin-top: 15px;
+  margin-left: -10px;
+  margin-right: -10px;
+  float: right;
+} 
+
+.nav-links li{
+  display: inline;
+  font-size: 16px;
+  padding: 0px 25px 25px 0px;
 }
 
-.nav.nav-tabs.nav-justified{
-  margin-top: 5px;
+.nav-links a{
+  color: #EEF0FA;
+  text-decoration: none;
 }
 
-.written{
-  font-family: fengardon;
-  background-color: #ffffff;
+.nav-links a:hover{
+  color: #797A7F;
+}
+
+.heading {
+  margin-left: 25px;
+}
+
+.heading h1 {
+  font-size: 40px;
+}
+
+.content{
+  font-family: ghandi;
+  font-size: 15px;
+  padding-bottom: 25px;
 }
 
 
-.footer{
-  background-color: #ffffff;
-
+.myfoot{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #242329;
+  color: #EEF0FA;
   font-family: Helvetica;
   font-size: 15px;
+  height: auto;
+  width: 100%;
 
 }
 

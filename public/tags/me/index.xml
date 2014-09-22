@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Me on Michael Skirpan&#39;s Personal Webpage </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/me/index.xml/</link>
+    
+    
+    
+    <updated>Sun, 21 Sep 2014 23:50:09 MDT</updated>
+    
+    <item>
+      <title>blog/test 1</title>
+      <link>http://localhost:1313/blog/test-1/</link>
+      <pubDate>Sun, 21 Sep 2014 23:50:09 MDT</pubDate>
+      
+      <guid>http://localhost:1313/blog/test-1/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;This is to check&lt;/h1&gt;
+
+&lt;p&gt;That things work like I&amp;rsquo;m hoping&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

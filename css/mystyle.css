@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: ghandi;
-  src: url(/static/fonts/gandhi-sans/GandhiSans-Bold.otf);
+  src: url(/fonts/gandhi-sans/GandhiSans-Bold.otf);
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@
 }
 
 html, body {
-  height:100%;
+  height:100vh;
 }
 
 .mainimg {
@@ -97,7 +97,8 @@ html, body {
 
 .content{
   font-family: ghandi;
-  font-size: 15px;
+  font-size: 16px;
+  padding-top: 35px;
   padding-bottom: 25px;
 }
 

@@ -28,7 +28,8 @@
 }
 
 html, body {
-  height:100vh;
+  height: 100%;
+  width: 100%;
 }
 
 .mainimg {
@@ -96,22 +97,27 @@ html, body {
 }
 
 .content{
+  min-height:100%;
   font-family: ghandi;
   font-size: 16px;
   padding-top: 35px;
   padding-bottom: 25px;
 }
 
+.row {
+  margin:0px;
+}
 
-.myfoot{
+
+footer {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #242329;
   color: #EEF0FA;
   font-family: Helvetica;
   font-size: 15px;
-  height: auto;
   width: 100%;
-
+  left: 0;
+  bottom: 0;  
 }
 

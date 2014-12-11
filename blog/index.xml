@@ -7,7 +7,90 @@
     
     
     
-    <updated>Fri, 24 Oct 2014 01:12:59 MDT</updated>
+    <updated>Thu, 11 Dec 2014 15:17:06 MST</updated>
+    
+    <item>
+      <title>atlas_expo</title>
+      <link>http://mwskirpan.com/blog/atlas_expo/</link>
+      <pubDate>Thu, 11 Dec 2014 15:17:06 MST</pubDate>
+      
+      <guid>http://mwskirpan.com/blog/atlas_expo/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;The Bit-Wise Soul of the 21st Century&lt;/h1&gt;
+
+&lt;p&gt;The objective of this project was to create a compelling experience from data coming from sensors placed under mats at the entrance of CU&amp;rsquo;s Atlas lobby. Every ten minutes, the sensor count resets. The balls on the screen represent the number of times the sensor has been hit since th last reset. The bottom left times represent sensor counts from previous hours and bottom-right times represent predictions for the next two hours based on the average from past days. Notes that compose various scales and melodies compiled by Brian Newsom play as a sensor is stepped on.&lt;/p&gt;
+
+&lt;p&gt;This visualization also plays through an interactive story written by Mike Skirpan and conceptualized/implemented by Mike Fyk that branches based on the number of sensor steps. If the number of sensor steps in a story phase is greater than the average for that hour of the day, the story continues differently than if the number of steps is less. The full story is below.&lt;/p&gt;
+
+&lt;p&gt;Audio and Server Implementation: Brian Newsom and Ian Ker-Seymer
+Hardware: Adrian Chen
+Visuals: Mike Fyk&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Start of Story&lt;/h2&gt;
+
+&lt;p&gt;She was walking in a hurry through the lobby.
+Data traveling into her ears and eyes.
+The glow of her retina display shining back.
+Then, a soft voice lilted through the noise of her earbuds, barely audible above the beat.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;First PATH A: [More people stepping]&lt;/h2&gt;
+
+&lt;p&gt;Pulling her earbud out, she turned to notice a boy shaking his head, sobbing at a nearby table.
+His laptop had just crashed, and his final project was lost.
+&amp;ldquo;What am I supposed to do now? This is what I get for trusting a computer,&amp;rdquo; he lamented.
+She approached him and asked, &amp;ldquo;Are you okay?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;PATH A/A: [More people stepping]&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Yeah, I&amp;rsquo;ll be fine.  Wish I could go back an hour and back up my data,&amp;rdquo; he replied.
+She smiled and put her hand on his shoulder, &amp;ldquo;I can&amp;rsquo;t even imagine.  During final&amp;rsquo;s week, too.&amp;rdquo;
+He gave back a warm smile and felt relieved to have someone sharing in this frustrating moment.
+&amp;ldquo;Things could be worse,&amp;rdquo; he said.
+&amp;ldquo;That doesn&amp;rsquo;t change how it feels.  Here let me buy you a coffee,&amp;rdquo; she offered.
+The two went onward smiling, leaving their technology behind.&lt;/p&gt;
+
+&lt;p&gt;PATH A/B: [Less people stepping]&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Yeah yeah, I&amp;rsquo;m fine. Tired of my crappy computer,&amp;rdquo; he answered sternly.
+&amp;ldquo;It&amp;rsquo;s better than writing everything on paper,&amp;rdquo; she kidded.
+&amp;ldquo;Easy for you to say.  Why don&amp;rsquo;t you joke with someone else?&amp;rdquo; he replied.
+Only hoping to help, she walked away stunned and thought about how she think twice next time she thinks to chat with a stranger.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;PATH B: [Less people stepping]&lt;/p&gt;
+
+&lt;p&gt;However, the beat went on and she missed the tragedy happening only inches away.
+Captivated by her Facebook feed, she remembered she had promised her friend, Taylor that she would accept her party invite.
+A house-warming party that only 10 people had accepted on Facebook, it was her duty to show support.
+Clicking &amp;lsquo;accept&amp;rsquo; she thought about the three other events she had agreed to that night.&lt;/p&gt;
+
+&lt;p&gt;PATH B/A: [More people stepping]&lt;/p&gt;
+
+&lt;p&gt;She remembered how Taylor had been there for her when her rent check bounced.
+The other parties suddenly seemed less appealing compared to supporting her true friend.
+Closing Facebook, she tapped out a text message to Taylor.
+&amp;lsquo;Hey, I&amp;rsquo;ll def be there on Saturday - I&amp;rsquo;ll bring a bottle of red.&amp;rsquo; She texted.
+Putting her phone away she smiled and walked onward to class.&lt;/p&gt;
+
+&lt;p&gt;PATH B/B: [Less people stepping]&lt;/p&gt;
+
+&lt;p&gt;Browsing through the other events for Saturday, she saw one hundred people were going to Travis&amp;rsquo; party.
+The pictures from Travis&amp;rsquo; last party looked like a blast - selfies with scattered laser light in the background.
+Already forgetting about Taylor&amp;rsquo;s party, she accepted the invite to Travis&amp;rsquo; and turned up some house music in her ears.
+Fantasizing about the weekend, she entered her class dreaming of something only movies had promised her.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://mwskirpan.com/blog/test/</link>
+      <pubDate>Thu, 30 Oct 2014 19:51:21 -0400</pubDate>
+      
+      <guid>http://mwskirpan.com/blog/test/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aaron Swartz Panel Discussion</title>

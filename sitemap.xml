@@ -3,12 +3,22 @@
   
   <url>
     <loc>http://mwskirpan.com/</loc>
-    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
+    <lastmod>2014-12-17T18:53:26-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mwskirpan.com/blog/atlas_expo/</loc>
+    <loc>http://mwskirpan.com/blog/atlas_installation/</loc>
+    <lastmod>2014-12-17T18:53:26-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/blog/traffic_monitor/</loc>
+    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/extras/traffic_monitor/</loc>
     <lastmod>2014-12-11T15:17:06-07:00</lastmod>
   </url>
   

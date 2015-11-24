@@ -70,22 +70,6 @@
     </item>
     
     <item>
-      <title>blog/personal data</title>
-      <link>http://mwskirpan.com/blog/personal-data/</link>
-      <pubDate>Sat, 28 Feb 2015 22:50:03 MST</pubDate>
-      
-      <guid>http://mwskirpan.com/blog/personal-data/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;What is this?&lt;/h1&gt;
-
-&lt;p&gt;If you found this, you&amp;rsquo;re probably our friend and are allowing us to collect your public API data for an art exhibit that is being created by Jackie Cameron, Abhishek Narula, and Michael Skirpan.  Thanks for helping us out!&lt;/p&gt;
-
-&lt;p&gt;This is all for the sake of art!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Fractal trees in D3</title>
       <link>http://mwskirpan.com/blog/fractal-tree/</link>
       <pubDate>Tue, 10 Feb 2015 14:52:53 MST</pubDate>
@@ -95,7 +79,7 @@
 
 &lt;h1 id=&#34;toc_0&#34;&gt;Making your own fractal trees&lt;/h1&gt;
 
-&lt;p&gt;Currently I&amp;rsquo;m in an amazing class entitled Chaotic Dynamics by a wonderfully edifying instructor - &lt;a href=&#34;http://www.cs.colorado.edu/~lizb/&#34;&gt;Liz Bradley&lt;/a&gt;.  Last week when we were studying fractals, I went a bit overboard and wrote a Javascript application that builds a Cantor-like set and then allows you to see the result of the set as a tree which has fractal properties.&lt;/p&gt;
+&lt;p&gt;At the time of writing, I am in an amazing class entitled Chaotic Dynamics by a wonderfully edifying instructor - &lt;a href=&#34;http://www.cs.colorado.edu/~lizb/&#34;&gt;Liz Bradley&lt;/a&gt;.  Last week when we were studying fractals, I went a bit overboard and wrote a Javascript application that builds a Cantor-like set and then allows you to see the result of the set as a tree which has fractal properties.&lt;/p&gt;
 
 &lt;p&gt;Please play around with it &lt;a href=&#34;http://mwskirpan.com/FractalTree/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 

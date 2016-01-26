@@ -3,23 +3,8 @@
   
   <url>
     <loc>http://mwskirpan.com/</loc>
-    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mwskirpan.com/blog/fall-course-description/</loc>
-    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mwskirpan.com/blog/fractal-tree/</loc>
-    <lastmod>2015-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mwskirpan.com/blog/atlas_installation/</loc>
-    <lastmod>2014-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,18 +13,38 @@
   </url>
   
   <url>
-    <loc>http://mwskirpan.com/blog/internets-own/</loc>
-    <lastmod>2014-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mwskirpan.com/colab/modulearner/</loc>
     <lastmod>2014-10-09T16:01:27-06:00</lastmod>
   </url>
   
   <url>
+    <loc>http://mwskirpan.com/writing/test_non/</loc>
+    <lastmod>2015-11-24T19:25:45-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/blog/fall-course-description/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mwskirpan.com/blog/dewey-and-democracy/</loc>
     <lastmod>2014-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/blog/internets-own/</loc>
+    <lastmod>2014-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/blog/atlas_installation/</loc>
+    <lastmod>2014-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/blog/fractal-tree/</loc>
+    <lastmod>2015-02-10T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

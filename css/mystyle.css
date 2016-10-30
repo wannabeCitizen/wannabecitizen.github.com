@@ -105,6 +105,10 @@ a.nav-item {
   padding-bottom: 1rem;
 }
 
+.blog-list a {
+  font-size: 1.25em;
+}
+
 .writing-list a {
   font-size: 1.25em;
 }

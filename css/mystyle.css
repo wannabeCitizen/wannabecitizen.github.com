@@ -80,6 +80,15 @@ a.nav-item {
   background-color: #796F78;
 }
 
+.short-desc {
+  margin-top: .5em;
+  font-size: 1.5em;
+}
+
+.research li {
+  padding-bottom: .50em;
+}
+
 .media p {
   margin-top: .25em;
 }

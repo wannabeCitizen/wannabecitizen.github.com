@@ -1,0 +1,7 @@
+{
+	"baseurl" : "http://mwskirpan.com",
+	"title" : "Michael Skirpan's Personal Webpage",
+	"MetaDataFormat" : "json",
+ 	"contentdir" : "content",
+	"layoutdir" : "layouts"
+}

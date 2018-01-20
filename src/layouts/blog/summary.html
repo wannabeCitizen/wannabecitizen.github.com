@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+
+<body lang="en">
+
+	{{ partial "nav.html" . }}
+
+
+	<div class="content container">
+		<div class="row">
+			 <div class="col-sm-8 col-md-10 col-md-offset-1 col-sm-offset-2">
+
+			 	<h1>Blog Entries</h1>
+		
+			 	{{ range .Data.Pages }}
+			 		{{ .Summary }}
+			 	{{ end }}
+			 	
+
+			 </div>
+		</div>
+	</div>
+
+
+	{{ partial "footer.html" . }}
+
+</body>

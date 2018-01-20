@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+
+<body lang="en">
+
+	{{ partial "nav.html" . }}
+
+
+	<section class="section">
+		<div class="columns">
+			 <div class="column is-8 is-offset-1">
+			 	<h2 class="title is-3">{{ .Title }}</h2>
+			 	<br>
+			 	<div class="blog-text">
+
+			 	{{ .Content }}
+			 	</div>
+			 	<div>
+			 		<p>Written on: {{ .Date.Format "Mon Jan 2, 2006" }} </p>
+			 	</div>
+			 </div>
+		</div>
+	</section>
+
+
+	{{ partial "footer.html" . }}
+
+</body>

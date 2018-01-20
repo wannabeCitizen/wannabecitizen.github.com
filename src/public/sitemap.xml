@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/extras/traffic_monitor/</loc>
+    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/projects/modulearner/</loc>
+    <lastmod>2014-10-09T16:01:27-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/research/test/</loc>
+    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/test_non/</loc>
+    <lastmod>2015-11-24T19:25:45-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/fall-course-description/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/dewey-and-democracy/</loc>
+    <lastmod>2014-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/internets-own/</loc>
+    <lastmod>2014-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/atlas_installation/</loc>
+    <lastmod>2014-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/fractal-tree/</loc>
+    <lastmod>2015-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/Fast_Forward_Neural_Network_Post/</loc>
+    <lastmod>2016-01-25T20:10:12-07:00</lastmod>
+  </url>
+  
+</urlset>

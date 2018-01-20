@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+
+<body lang="en">
+
+	{{ partial "nav.html" . }}
+
+
+	<section class="section">
+		<div class="columns content">
+			 <div class="column is-8 is-offset-1">
+
+			 	<h1 class="title is-3">Blog Entries</h1>
+			 	<p class="subtitle is-5">No real theme here. Just a place to dump things that may be worth sharing.</p>
+				<ul>
+			 	{{ range .Data.Pages }}
+			 		<li>
+			 		{{ .Summary }}
+			 		</li>
+			 	{{ end }}
+			 	</ul>
+			 	
+
+			 </div>
+		</div>
+	</div>
+
+
+	{{ partial "footer.html" . }}
+
+</body>

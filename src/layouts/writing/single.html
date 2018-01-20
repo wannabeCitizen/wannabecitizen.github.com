@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+
+
+<body lang="en">
+
+	{{ partial "nav.html" . }}
+
+
+	<div class="content container">
+		<div class="row">
+			 <div class="col-sm-8 col-md-10 col-md-offset-1 col-sm-offset-2">
+
+			 	{{ .Content }}
+
+			 </div>
+		</div>
+	</div>
+
+
+	{{ partial "footer.html" . }}
+
+</body>

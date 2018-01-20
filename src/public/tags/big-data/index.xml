@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Big-Data on Michael Skirpan&#39;s Personal Webpage </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/big-data/index.xml/</link>
+    
+    
+    
+    <updated>Wed, 17 Dec 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Everyday Data: An Interactive Data Installation in CU-Boulder&#39;s ATLAS Lobby Space</title>
+      <link>http://localhost:1313/blog/atlas_installation/</link>
+      <pubDate>Wed, 17 Dec 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/atlas_installation/</guid>
+      <description>&lt;p&gt;In the Autumn of 2014, with the hard work of the students in our &lt;a href=&#34;http://csci-4830-002-2014.github.io&#34;&gt;HCC: Big Data&lt;/a&gt; class, I mentored them in creating lobby art installation that combined both the technical and aesthetic aspects of large-scale data collection.  The installation was the culminating project of our upper-division class on the subject, and its implementation was supported generously by a grant from CU-Boulder&amp;rsquo;s &lt;a href=&#34;http://eef.colorado.edu&#34;&gt;Engineering Excellence Fund&lt;/a&gt; along with my advisor &lt;a href=&#34;http://tomyeh.info&#34;&gt;Tom Yeh&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My initial goal was to create a way to arrange the diverse skills in coding, music, visual art, and circuitry found across the class into a unifying project that would reach out beyond the confines of our classroom.  Beyond this, we hoped to turn a passive lobby space into an active interaction that would engage passerbyers, perhaps even away from their often attention-consuming technological devices.&lt;/p&gt;
+
+&lt;p&gt;After allowing the class to vote on whether they wanted to take on the project and then what pieces they hoped to implement, we ended up splitting into four teams.  Each team&amp;rsquo;s piece involved a hardware component and a visual component.  The hardware was mounted around the lobby to track and offer interactive material while all visualizations were on a rotating display broadcasted on the lobby&amp;rsquo;s giant 8ft x 6ft digital display.  Though hardware varied, all visual components were done using &lt;a href=&#34;http://www.d3js.org&#34;&gt;JavaScript&amp;rsquo;s D3 package&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Descriptions of the four projects are as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;img src=&#34;/images/words_pic.jpg&#34; alt=&#34;conversations&#34; /&gt;
+
+&lt;em&gt;Conversations in ATLAS Lobby&lt;/em&gt;: This team mounted two condenser microphones near the study tables in the lobby space and used them to record snippets of conversations in process.  The two microphones were connected to a hidden Raspberry Pi computer that converted the recordings into short .wav files that would be processed for semantic information and, words that were confidently inferred, stemmed to their root form.  Once the words were processed, they were saved into a MongoDB instance we had waiting in the cloud.  Finally words were tallied for their frequency and turned into a giant word cloud accompanied by a bar graph of the most frequent words and word stack showing what was currently being said near the microphones.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;img src=&#34;/images/woz_pic.jpg&#34; alt=&#34;woz&#34; /&gt;
+
+&lt;em&gt;The Four V&amp;rsquo;s of Woz&lt;/em&gt;: An adaptation of Andy Warhol&amp;rsquo;s iconic repetitious block portraits, these students chose to replace Warhol&amp;rsquo;s Marilyn Monroe or Jackie Kennedy with a tech icon - Apple co-founder Steve Wozniak.  In line with the pop-art imagery, each portrait of Steve Wozniak was filled with bright colors and a high-contrast backdrop.  Six images were displayed in succession, each one changing it&amp;rsquo;s color, brightness, contrast, and saturation parameters based on live data being collected from both the lobby space and around the internet (specifically, data related to CU-Boulder or Apple).  For more information, look to the group&amp;rsquo;s &lt;a href=&#34;https://joshferge.github.io/AboutWozPage/&#34;&gt;written explanation of their work&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;img src=&#34;/images/noise_pic.jpg&#34; alt=&#34;noise&#34; /&gt;
+
+&lt;em&gt;Seeing Your Sound&lt;/em&gt;: Featuring a live equalizer, real-time graphing of decibel levels, and a daily average of the loudest and quietest times, this team&amp;rsquo;s work was a collection of visualizations compiled out of live data being collected from an ambient microphone hanging in above the heads of those in the lobby.  The microphone was connected to a Raspberry Pi mounted high above in the rafters.  From their the sound data was processed and converted both into a frequency spectrum of the sound samples and an average decibel reading over the sample period.  This data was pushed to a cloud-based MongoDB instance through over REST API then digested by JavaScript on the client side to create a live, visual feed of noise events happening in the lobby.  All visualizations ran in real-time and had immediate interactivity through a simple shout or loud noise.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;img src=&#34;/images/traffic_pic.jpg&#34; alt=&#34;traffic&#34; /&gt;
+
+&lt;em&gt;The Bitwise Soul of the 21st Century&lt;/em&gt;: Currently this project uses force sensors taped under the floor mats placed at all the entrances/exits to the lobby to track the foot traffic moving through the lobby space.  As people walked through the lobby, the patter of their steps fed input into a multi-modal experience.  Starting with the force sensors feeding into an arduino, triggers were sent to a Raspberry Pi when any of the entrance/exit sensors were triggered.  Upon being triggered, a Japanese string instrument could be heard across the lobby space.  Along with this audio experience, a visualization displayed two coordinated facets of the project: particles entered and bounced around in a box as the sensors were stepped on more and a story was being revealed, one sentence at a time, that adapted to the number of people interacting with the sensors.  For a further write up of this project, read the [student write up]() of their project and full body of the story. &lt;em&gt;(This project is currently being updated to use Xbox Kinects for body sensing - this description will be updated when this is complete.)&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This installation opened on December 11, 2014 at the ATLAS Expo and will remain on display through the Spring of 2015.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions or would like to see code or learn more, feel free to contact me at: michael [dot] skirpan [at] colorado [dot] edu&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>atlas_expo</title>
+      <link>http://localhost:1313/extras/traffic_monitor/</link>
+      <pubDate>Thu, 11 Dec 2014 15:17:06 -0700</pubDate>
+      
+      <guid>http://localhost:1313/extras/traffic_monitor/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;The Bit-Wise Soul of the 21st Century&lt;/h1&gt;
+
+&lt;p&gt;The objective of this project was to create a compelling experience from data coming from sensors placed under mats at the entrance of CU&amp;rsquo;s Atlas lobby. Every ten minutes, the sensor count resets. The balls on the screen represent the number of times the sensor has been hit since th last reset. The bottom left times represent sensor counts from previous hours and bottom-right times represent predictions for the next two hours based on the average from past days. Notes that compose various scales and melodies compiled by Brian Newsom play as a sensor is stepped on.&lt;/p&gt;
+
+&lt;p&gt;This visualization also plays through an interactive story written by Mike Skirpan and conceptualized/implemented by Mike Fyk that branches based on the number of sensor steps. If the number of sensor steps in a story phase is greater than the average for that hour of the day, the story continues differently than if the number of steps is less. The full story is below.&lt;/p&gt;
+
+&lt;p&gt;Audio and Server Implementation: Brian Newsom and Ian Ker-Seymer
+Hardware: Adrian Chen
+Visuals: Mike Fyk
+Story: Michael Skirpan&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Start of Story&lt;/h2&gt;
+
+&lt;p&gt;She was walking in a hurry through the lobby.
+Data traveling into her ears and eyes.
+The glow of her retina display shining back.
+Then, a soft voice lilted through the noise of her earbuds, barely audible above the beat.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;First PATH A: [More people stepping]&lt;/h2&gt;
+
+&lt;p&gt;Pulling her earbud out, she turned to notice a boy shaking his head, sobbing at a nearby table.
+His laptop had just crashed, and his final project was lost.
+&amp;ldquo;What am I supposed to do now? This is what I get for trusting a computer,&amp;rdquo; he lamented.
+She approached him and asked, &amp;ldquo;Are you okay?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;PATH A/A: [More people stepping]&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Yeah, I&amp;rsquo;ll be fine.  Wish I could go back an hour and back up my data,&amp;rdquo; he replied.
+She smiled and put her hand on his shoulder, &amp;ldquo;I can&amp;rsquo;t even imagine.  During final&amp;rsquo;s week, too.&amp;rdquo;
+He gave back a warm smile and felt relieved to have someone sharing in this frustrating moment.
+&amp;ldquo;Things could be worse,&amp;rdquo; he said.
+&amp;ldquo;That doesn&amp;rsquo;t change how it feels.  Here let me buy you a coffee,&amp;rdquo; she offered.
+The two went onward smiling, leaving their technology behind.&lt;/p&gt;
+
+&lt;p&gt;PATH A/B: [Less people stepping]&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Yeah yeah, I&amp;rsquo;m fine. Tired of my crappy computer,&amp;rdquo; he answered sternly.
+&amp;ldquo;It&amp;rsquo;s better than writing everything on paper,&amp;rdquo; she kidded.
+&amp;ldquo;Easy for you to say.  Why don&amp;rsquo;t you joke with someone else?&amp;rdquo; he replied.
+Only hoping to help, she walked away stunned and thought about how she think twice next time she thinks to chat with a stranger.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;PATH B: [Less people stepping]&lt;/p&gt;
+
+&lt;p&gt;However, the beat went on and she missed the tragedy happening only inches away.
+Captivated by her Facebook feed, she remembered she had promised her friend, Taylor that she would accept her party invite.
+A house-warming party that only 10 people had accepted on Facebook, it was her duty to show support.
+Clicking &amp;lsquo;accept&amp;rsquo; she thought about the three other events she had agreed to that night.&lt;/p&gt;
+
+&lt;p&gt;PATH B/A: [More people stepping]&lt;/p&gt;
+
+&lt;p&gt;She remembered how Taylor had been there for her when her rent check bounced.
+The other parties suddenly seemed less appealing compared to supporting her true friend.
+Closing Facebook, she tapped out a text message to Taylor.
+&amp;lsquo;Hey, I&amp;rsquo;ll def be there on Saturday - I&amp;rsquo;ll bring a bottle of red.&amp;rsquo; She texted.
+Putting her phone away she smiled and walked onward to class.&lt;/p&gt;
+
+&lt;p&gt;PATH B/B: [Less people stepping]&lt;/p&gt;
+
+&lt;p&gt;Browsing through the other events for Saturday, she saw one hundred people were going to Travis&amp;rsquo; party.
+The pictures from Travis&amp;rsquo; last party looked like a blast - selfies with scattered laser light in the background.
+Already forgetting about Taylor&amp;rsquo;s party, she accepted the invite to Travis&amp;rsquo; and turned up some house music in her ears.
+Fantasizing about the weekend, she entered her class dreaming of something only movies had promised her.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

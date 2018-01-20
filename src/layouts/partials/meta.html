@@ -1,0 +1,10 @@
+{{with .Description }}<meta name="description" content="{{ . }}">{{end}}
+<meta name="keywords" content="{{ if .Keywords }}{{ range .Keywords }}{{ . }}, {{ end }}{{else if isset .Params "tags" }}{{ range .Params.tags }}{{ . }}, {{ end }}{{end}}">
+
+{{if .Keywords }}
+{{ range .Keywords }}<meta property="article:tag" content="{{ . }}">
+{{ end }}
+{{else if isset .Params "tags" }}
+{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">
+{{ end }}
+{{end}}

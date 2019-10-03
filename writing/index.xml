@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Writings on Michael Skirpan&#39;s Personal Webpage </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://mwskirpan.com/writing/index.xml/</link>
+    <title>Writings on Michael Skirpan&#39;s Personal Webpage</title>
+    <link>http://mwskirpan.com/writing/</link>
+    <description>Recent content in Writings on Michael Skirpan&#39;s Personal Webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 24 Nov 2015 19:25:45 -0700</lastBuildDate>
     
+	<atom:link href="http://mwskirpan.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <updated>Tue, 24 Nov 2015 19:25:45 -0700</updated>
     
     <item>
       <title>test_non</title>
@@ -15,8 +16,7 @@
       <pubDate>Tue, 24 Nov 2015 19:25:45 -0700</pubDate>
       
       <guid>http://mwskirpan.com/writing/test_non/</guid>
-      <description>&lt;p&gt;Oh how I don&amp;rsquo;t &lt;em&gt;want&lt;/em&gt; to do websites all day.&lt;/p&gt;
-</description>
+      <description>Oh how I don&amp;rsquo;t want to do websites all day.</description>
     </item>
     
   </channel>

@@ -1,72 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>1 on Michael Skirpan&#39;s Personal Webpage </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://mwskirpan.com/tags/1/index.xml/</link>
+    <title>1 on Michael Skirpan&#39;s Personal Webpage</title>
+    <link>http://mwskirpan.com/tags/1/</link>
+    <description>Recent content in 1 on Michael Skirpan&#39;s Personal Webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 31 Mar 2015 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="http://mwskirpan.com/tags/1/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <updated>Tue, 31 Mar 2015 00:00:00 UTC</updated>
     
     <item>
       <title>Democracy in the Digital Era - Course Description</title>
       <link>http://mwskirpan.com/blog/fall-course-description/</link>
-      <pubDate>Tue, 31 Mar 2015 00:00:00 UTC</pubDate>
+      <pubDate>Tue, 31 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>http://mwskirpan.com/blog/fall-course-description/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Democracy in the Digital Era - Fall 2015 @ CU-Boulder&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Meeting Time:&lt;/strong&gt; Weds 3-5:30&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Instructor&lt;/strong&gt;: Michael Skirpan&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Course Number:&lt;/strong&gt; ATLS 3519-001&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Course Description&lt;/h2&gt;
-
-&lt;p&gt;The aim of this course is to do side-by-side examinations of historical and contemporary challenges, movements, and transformations in American Democracy.  In particular, we will emphasize how technology and information access are changing the current landscape of democracy.&lt;/p&gt;
-
-&lt;p&gt;This course hopes to attract a hybrid class of engineering and humanities students in order to leverage the skills of each group toward interactive workshops and cross-disciplined final projects.  While there will be some prepared readings, topics, and workshops, the class will be run in a democratic fashion such that students have a lot of control to choose topics, field trips, workshops, and projects.&lt;/p&gt;
-
-&lt;p&gt;Thus, be prepared to participate but also to have your voice heard and interests taken seriously in shaping the class.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Class Time&lt;/h2&gt;
-
-&lt;p&gt;Class time will be split into two sections with a break in between.&lt;/p&gt;
-
-&lt;p&gt;The first half of seminar will be spent going over concepts and frameworks, and having engaged discussion based on the week&amp;rsquo;s homework.&lt;/p&gt;
-
-&lt;p&gt;The second half will be a hands-on workshop.  Students will be able to request certain workshops, but these will be intended to have students learn together and from one another in a hands-on way.  Workshops may include designing a policy solution, creating a website, having a guest speaker come to whom we can ask questions, going on a field trip, drafting a letter to a Congressman, planning a public art project, etc.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Work Expectations&lt;/h2&gt;
-
-&lt;p&gt;There will be weekly readings, but they will be light (minimum 10pgs, maximum 50pgs; pending other work happening).  Class participation during discussion will be important so readings will be expected to be done.&lt;/p&gt;
-
-&lt;p&gt;Students will each be expected to help design one of the workshops.  Your work toward this will be part of your grade.&lt;/p&gt;
-
-&lt;p&gt;There will be final projects that will also count for a large part of your grade.  Due to this, work load for the rest of class will trim down later in the semester.  These projects will be done in chosen groups and should address one of the topics we covered in class.  They are flexible and could be anything from: a web application that proposes a solution for a problem we discussed, a piece of art, preparing and hosting an event (such as a panel discussion), an essay, a short story, etc.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Potential Topics&lt;/h2&gt;
-
-&lt;p&gt;While the class is going to be dynamic to student interests some topics that I have prepared are:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;State Secrets: Comparing Edward Snowden&amp;rsquo;s Revelations to Frank Church&amp;rsquo;s fight agains J. Edgar Hoover&lt;/li&gt;
-&lt;li&gt;Corporate Personhood: Citizen&amp;rsquo;s United and SpeechNow.org vs. FEC in contrast to the early protections given to corporations in the late 1800&amp;rsquo;s.&lt;/li&gt;
-&lt;li&gt;Protest: Occupy Wall Street in light of historical unionized protests (e.g., railroad workers in late 1800&amp;rsquo;s, Congress of Industrial Organizations)&lt;/li&gt;
-&lt;li&gt;Voting Rights and Participation: Considering the restriction of voter&amp;rsquo;s rights historically (racial restrictions, gender restrictions) in comparison to today&amp;rsquo;s Voter ID laws.&lt;/li&gt;
-&lt;li&gt;Tragedy of the Commons: The crisis of individual agency in a world filled with well-known problems.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;Further Questions or Help&lt;/h2&gt;
-
-&lt;p&gt;If you have more questions about the course or need help petitioning it to count toward something, please let me know.&lt;/p&gt;
-
-&lt;p&gt;E-mail: michael [dot] skirpan [at] colorado [dot] edu&lt;/p&gt;
-</description>
+      <description>Democracy in the Digital Era - Fall 2015 @ CU-Boulder
+Meeting Time: Weds 3-5:30
+Instructor: Michael Skirpan
+Course Number: ATLS 3519-001
+Course Description The aim of this course is to do side-by-side examinations of historical and contemporary challenges, movements, and transformations in American Democracy. In particular, we will emphasize how technology and information access are changing the current landscape of democracy.
+This course hopes to attract a hybrid class of engineering and humanities students in order to leverage the skills of each group toward interactive workshops and cross-disciplined final projects.</description>
     </item>
     
   </channel>

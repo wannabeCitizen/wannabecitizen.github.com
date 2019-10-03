@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://mwskirpan.com/</loc>
-    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mwskirpan.com/extras/traffic_monitor/</loc>
-    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mwskirpan.com/projects/modulearner/</loc>
-    <lastmod>2014-10-09T16:01:27-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mwskirpan.com/research/test/</loc>
-    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://mwskirpan.com/writing/test_non/</loc>
@@ -53,8 +33,206 @@
   </url>
   
   <url>
-    <loc>http://mwskirpan.com/blog/Fast_Forward_Neural_Network_Post/</loc>
+    <loc>http://mwskirpan.com/blog/fast_forward_neural_network_post/</loc>
     <lastmod>2016-01-25T20:10:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/extras/traffic_monitor/</loc>
+    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/projects/modulearner/</loc>
+    <lastmod>2014-10-09T16:01:27-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/research/test/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/1/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/2/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/aaron-swartz/</loc>
+    <lastmod>2014-10-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/art/</loc>
+    <lastmod>2014-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/big-data/</loc>
+    <lastmod>2014-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/blog/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/civil-disobedience/</loc>
+    <lastmod>2014-10-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/colab/</loc>
+    <lastmod>2014-10-09T16:01:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/curriculum/</loc>
+    <lastmod>2014-10-09T16:01:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/democracy/</loc>
+    <lastmod>2014-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/dewey/</loc>
+    <lastmod>2014-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/education/</loc>
+    <lastmod>2014-10-09T16:01:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/extras/</loc>
+    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/fractals/</loc>
+    <lastmod>2015-02-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/installation/</loc>
+    <lastmod>2014-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/javascript/</loc>
+    <lastmod>2015-02-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/learning/</loc>
+    <lastmod>2016-01-25T20:10:12-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/machine-learning/</loc>
+    <lastmod>2016-01-25T20:10:12-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/</loc>
+    <lastmod>2015-11-24T19:25:45-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/neural-networks/</loc>
+    <lastmod>2016-01-25T20:10:12-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/open-source/</loc>
+    <lastmod>2014-10-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/participation/</loc>
+    <lastmod>2014-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/projects/</loc>
+    <lastmod>2014-10-09T16:01:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/research/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/surveillance/</loc>
+    <lastmod>2014-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/tech-policy/</loc>
+    <lastmod>2014-10-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/visualization/</loc>
+    <lastmod>2016-01-25T20:10:12-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/tags/visualizations/</loc>
+    <lastmod>2014-12-11T15:17:06-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mwskirpan.com/writing/</loc>
+    <lastmod>2015-11-24T19:25:45-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

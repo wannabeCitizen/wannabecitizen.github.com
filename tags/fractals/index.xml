@@ -1,36 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Fractals on Michael Skirpan&#39;s Personal Webpage </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://mwskirpan.com/tags/fractals/index.xml/</link>
+    <title>Fractals on Michael Skirpan&#39;s Personal Webpage</title>
+    <link>http://mwskirpan.com/tags/fractals/</link>
+    <description>Recent content in Fractals on Michael Skirpan&#39;s Personal Webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 10 Feb 2015 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="http://mwskirpan.com/tags/fractals/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <updated>Tue, 10 Feb 2015 00:00:00 UTC</updated>
     
     <item>
       <title>Fractal trees in D3</title>
       <link>http://mwskirpan.com/blog/fractal-tree/</link>
-      <pubDate>Tue, 10 Feb 2015 00:00:00 UTC</pubDate>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>http://mwskirpan.com/blog/fractal-tree/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Making your own fractal trees&lt;/h1&gt;
-
-&lt;p&gt;At the time of writing, I am in an amazing class entitled Chaotic Dynamics by a wonderfully edifying instructor - &lt;a href=&#34;http://www.cs.colorado.edu/~lizb/&#34;&gt;Liz Bradley&lt;/a&gt;.  Last week when we were studying fractals, I went a bit overboard and wrote a Javascript application that builds a Cantor-like set and then allows you to see the result of the set as a tree which has fractal properties.&lt;/p&gt;
-
-&lt;p&gt;Please play around with it &lt;a href=&#34;http://mwskirpan.com/FractalTree/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you have any ideas of how to extend this, please do get in touch.  You can expect to see a lot more interesting visuals and projects in the coming months based around chaotic systems.&lt;/p&gt;
-
-&lt;p&gt;Here are some examples of the fun you can have:
-&lt;img src=&#34;/images/curlyBlue.png&#34; alt=&#34;curly&#34; /&gt;
-
-&lt;img src=&#34;/images/xmasTree.png&#34; alt=&#34;xmas&#34; /&gt;
-&lt;/p&gt;
-</description>
+      <description>Making your own fractal trees At the time of writing, I am in an amazing class entitled Chaotic Dynamics by a wonderfully edifying instructor - Liz Bradley. Last week when we were studying fractals, I went a bit overboard and wrote a Javascript application that builds a Cantor-like set and then allows you to see the result of the set as a tree which has fractal properties.
+Please play around with it here</description>
     </item>
     
   </channel>

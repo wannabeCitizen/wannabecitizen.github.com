@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Tech-Policy on Michael Skirpan&#39;s Personal Webpage </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://mwskirpan.com/tags/tech-policy/index.xml/</link>
+    <title>Tech Policy on Michael Skirpan&#39;s Personal Webpage</title>
+    <link>http://mwskirpan.com/tags/tech-policy/</link>
+    <description>Recent content in Tech Policy on Michael Skirpan&#39;s Personal Webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Oct 2014 00:00:00 +0000</lastBuildDate>
     
+	<atom:link href="http://mwskirpan.com/tags/tech-policy/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <updated>Fri, 24 Oct 2014 00:00:00 UTC</updated>
     
     <item>
       <title>Aaron Swartz Panel Discussion</title>
       <link>http://mwskirpan.com/blog/internets-own/</link>
-      <pubDate>Fri, 24 Oct 2014 00:00:00 UTC</pubDate>
+      <pubDate>Fri, 24 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>http://mwskirpan.com/blog/internets-own/</guid>
-      <description>&lt;p&gt;On October 20, 2014, I was part of a panel discussion that followed a showing of &amp;ldquo;The Internet&amp;rsquo;s Own Boy&amp;rdquo; - a documentary about Aaron Swartz&amp;rsquo;s life and prosecution.  The panel included two law professors who specialize in the fields of privacy and computer law, one open-source hardware designer and advocate, and one computer scientist and advocate (a/k/a me).&lt;/p&gt;
-
-&lt;p&gt;The footage of the panel can be found for free &lt;a href=&#34;http://classcapture.colorado.edu/Mediasite/Catalog/Full/5dbf4ddd76ce43f1a7d3ee5b2ba765e321&#34;&gt;at this link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;FYI: You may need to fast-forward slightly as it was recorded by an automated camera that started a bit before the panel got going.&lt;/p&gt;
-</description>
+      <description>On October 20, 2014, I was part of a panel discussion that followed a showing of &amp;ldquo;The Internet&amp;rsquo;s Own Boy&amp;rdquo; - a documentary about Aaron Swartz&amp;rsquo;s life and prosecution. The panel included two law professors who specialize in the fields of privacy and computer law, one open-source hardware designer and advocate, and one computer scientist and advocate (a/k/a me).
+The footage of the panel can be found for free at this link</description>
     </item>
     
   </channel>
